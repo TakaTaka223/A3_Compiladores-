@@ -1,0 +1,6 @@
+var x: inteiro = 5;
+var y: inteiro = 10;
+
+x = x + y;
+
+escreva("O novo valor de x é:\n", x);

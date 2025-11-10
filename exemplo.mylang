@@ -1,0 +1,18 @@
+// exemplo.mylang
+var x : inteiro = 10 ;
+var y : real = 3.5 ;
+var b : booleano = true ;
+
+x = x + 5 ;
+y = x + y ;
+escreva(x, y) ;
+
+if ( x < 20 ) {
+    escreva(x) ;
+} else {
+    escreva(y) ;
+}
+
+while ( x > 0 ) {
+    x = x - 1 ;
+}

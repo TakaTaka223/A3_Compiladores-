@@ -1,0 +1,22 @@
+var x: inteiro = 2;
+var y: real = 3.5;
+var ok: booleano = verdadeiro;
+
+escreva("Valores iniciais:", x, y, ok);
+
+se (x < 5) entao {
+    escreva("x é menor que 5");
+} senao {
+    escreva("x é maior ou igual a 5");
+}
+
+var c: inteiro = 1;
+
+enquanto (c <= 3) {
+    escreva("Loop:", c);
+    c = c + 1;
+}
+
+x = x + 10 * 2;
+
+escreva("Valor final de x:", x);
